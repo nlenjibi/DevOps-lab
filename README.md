@@ -89,10 +89,5 @@ Provide the following when submitting for evaluation:
 - If tests fail, run `npm run lint` first and fix lint issues, then `npm test`.
 - If you need to reset the DB (app uses an in-memory or local Mongo instance depending on configuration), see `app/config/keys.js` for environment variables.
 
-## Contact / Attribution
 
-For questions about the project structure or to run a live walkthrough, open an issue in the repo or contact the author.
 
----
-
-This README is intended to give evaluators an at-a-glance checklist plus clear steps to run and verify the app and DevOps artifacts. If you want, I can also generate a short submission cover note that maps each assignment requirement to specific files and commits — would you like that?
