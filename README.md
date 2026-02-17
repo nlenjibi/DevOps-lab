@@ -1,5 +1,7 @@
 # DevOps Lab — Todo App (Final Submission)
 
+[![CI](https://github.com/nlenjibi/DevOps-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/nlenjibi/DevOps-lab/actions/workflows/ci.yml)
+
 This repository contains a small Todo web app and supporting DevOps artifacts demonstrating containerization, automated testing, observability, and CI.
 
 ## Submission Checklist (evidence)
@@ -84,10 +86,15 @@ Provide the following when submitting for evaluation:
 - Docker image built via `docker build` or `docker compose` and a note showing the running container (or screenshot).
 - Short notes for any checklist items that are incomplete.
 
+## Screenshots
+
+- See [SCREENSHOTS.md](SCREENSHOTS.md) for a simple template and examples of the screenshots to include with your submission. Save screenshots in the `/screenshots/` folder and reference them from this README as shown in the screenshots guide.
+
+## Quick Submission Guide
+
+- See [SUBMISSION_SUMMARY.md](SUBMISSION_SUMMARY.md) for a short submission summary, final checklist, and key lessons learned.
+
 ## Notes & troubleshooting
 
 - If tests fail, run `npm run lint` first and fix lint issues, then `npm test`.
 - If you need to reset the DB (app uses an in-memory or local Mongo instance depending on configuration), see `app/config/keys.js` for environment variables.
-
-
-
